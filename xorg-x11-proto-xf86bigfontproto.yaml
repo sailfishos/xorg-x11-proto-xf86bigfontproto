@@ -1,0 +1,16 @@
+Name: xorg-x11-proto-xf86bigfontproto
+Summary: X.Org X11 Protocol xf86bigfontproto
+Description: |
+    X.Org X11 big font protocol.
+Version: 1.2.0
+Release: 0
+Group: Development/System
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/xf86bigfontproto-%{version}.tar.bz2
+
+Provides: xf86bigfontproto
+Configure: configure
+ConfigOptions:
+    - --libdir=%{_datadir}
